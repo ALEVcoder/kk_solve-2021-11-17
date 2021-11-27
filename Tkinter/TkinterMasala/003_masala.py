@@ -4,16 +4,20 @@ root.geometry('400x400')
 
 
 def button_plus():
+    natija.delete(0, END) 
     bir = kirish1.get()
     ikki = kirish2.get()
     plus = int(bir) + int(ikki)
     print(plus)
     # Manashu yerigacha ishlayabdi
+    nn = '\n Qoshiluvchi'
     natija.insert(0, plus)
+    
     # Ishlayabdi endi
     return None
 
 def button_minus():
+    natija.delete(0, END) 
     bir = kirish1.get()
     ikki = kirish2.get()
     plus = int(bir) - int(ikki)
@@ -24,6 +28,7 @@ def button_minus():
     return None
 
 def button_kop():
+    natija.delete(0, END) 
     bir = kirish1.get()
     ikki = kirish2.get()
     plus = int(bir) * int(ikki)
@@ -34,6 +39,7 @@ def button_kop():
     return None
 
 def button_bol():
+    natija.delete(0, END) 
     bir = kirish1.get()
     ikki = kirish2.get()
     plus = int(bir) / int(ikki)

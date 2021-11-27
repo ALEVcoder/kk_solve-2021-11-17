@@ -26,7 +26,7 @@ kirish.pack()
 
 btn = tk.Button(masala, text='bos', command=plus).pack()
 
-n_na = tk.Label(text="Natija", bg='#207cca')
+n_na = tk.Label(text="Natija", bg='#007ADF')
 n_na.pack()
 natija = tk.Entry(masala, width=50)
 natija.pack()
